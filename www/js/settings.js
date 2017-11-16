@@ -1,4 +1,6 @@
-var servicio = "http://rs-pvapp.rhcloud.com/webresources/";
+//var servicio = "http://rs-pvapp.rhcloud.com/webresources/";
+var servicio = "http://localhost:8081/webresources/";
+
 
 var usuario = {
     codTipoDocumento: 0, documentoIdentidad: null, nombre: null, apellido: null, usuario: null, correo: null, edad: 0, fechaNacimiento: null, codigo: null,

@@ -99,7 +99,7 @@ c.SignInController.prototype.onSignInCommand = function () {
 //        me.$txtdocumento.addClass(invalidInputStyle);
 //        return;
 //    }
-    usuario.usuario = emailAddress;
+    usuario.correo = emailAddress;
     usuario.clave = password;
     usuario.regId = regId;
     $.mobile.loading("show");
